@@ -1,4 +1,6 @@
-import React from 'react'
+// frontend/component/searchbar.jsx
+import React from 'react';
+import GenerateSimulationButton from './GenerateSimulationButton'; // Import the new button component
 
 const SearchBar = () => {
   return (
@@ -43,16 +45,14 @@ const SearchBar = () => {
             aria-autocomplete="list"
             required
             id="search"
-            className={`block w-full outline-0 p-2 pl-10 text-sm text-gray-900 bg-white  border border-gray-300 rounded-lg
-            `}
-            // onChange={onSearch}
+            className={`block w-full outline-0 p-2 pl-10 text-sm text-gray-900 bg-white  border border-gray-300 rounded-lg`}
             value={"query"}
           />
         </div>
-        
       </form>
+      <GenerateSimulationButton /> {/* Include the button here */}
     </div>
-  )
+  );
 }
 
-export default SearchBar
+export default SearchBar;
