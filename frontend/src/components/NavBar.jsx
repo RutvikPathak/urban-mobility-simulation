@@ -7,7 +7,7 @@ const NavBar = () => {
         <div class="flex mx-auto items-center bg-red-800 ltr">
             <div className='ml-4 flex justify-between items-center'>
                 <img src={logo} alt='logo' width={60} height={60} className='me-2' />
-                <h5 className='text-lg'>Traffic & Urban Mobility Simulation</h5>
+                <h5 className='text-lg'>Traffic Pulse</h5>
             </div>
             <ul class="ml-auto text-base text-white flex justify-between me-2">
                 <li>
